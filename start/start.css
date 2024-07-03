@@ -8,13 +8,11 @@ body {
     background-image: url('image5.jpg');
     background-size: cover;
     background-position: center;
-    /* background-; */
     height: 100%; 
     margin: 0;
     overflow: hidden; 
     box-sizing: border-box; 
     background-color: rgba(255, 255, 255, 0.9);
-    /* filter: brightness(70%); */
 }
 
 #table-info{
@@ -23,65 +21,48 @@ body {
     margin: 0;
     overflow: hidden;
     box-sizing: border-box; 
-    /* background-color: rgba(255, 255, 255, 0.9); */
 }
 #container {
     display: grid;
     grid-template-columns: 1fr 3fr; 
-     /* gap: 20px;  */
-    /* padding: 20px; */
-    /* border: 2px solid red; */
     height: 100vh;
     overflow: hidden; 
 }
 
 #alltables {
-    /* border: 2px solid red; */
-    /* background-color: rgb(245, 243, 248); */
-    /* border: 2px solid rgb(10, 9, 9); */
     padding: 10px;
     margin: 10px;
     height: 100%;
     overflow-y: auto; 
     box-sizing: border-box;
-    /* background-color: rgb(77, 235, 148); */
 }
 #menucard {
     position: relative; 
     display: flex;
     flex-direction: column; 
     overflow-y: auto; 
-    /* border: 2px solid red; */
     max-height: 100vh; 
     padding: 20px;
-    /* background-color: blue; */
 
 }
 
 #heading {
-    /* text-align: center; */
     position: fixed; 
     top: 10px;
     left: 50%;
     font-size: 150%;
-    /* background-color: white; */
     z-index: 1; 
-    /* width: 100%; Full width */
-    /* justify-content: center; */
     margin-left: 30px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-weight: bold;
     color:rgb(8, 8, 8);
-     /* Center text */
     padding: 10px; 
-    /* background-color: blue; */
 }
 
 #searchbar {
     position: fixed; 
     top: 80px;
-    /*  //Adjust as needed */
     background-color: white; 
     z-index: 1;
     width: 50%;
@@ -91,12 +72,10 @@ body {
     border-radius: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
-    /* margin-top: 100px ; */
     background-color: rgb(46, 236, 188);
 }
 
 #searchresult {
-    /* margin-top: 100px; */
     list-style-type: none;
     margin-top:20px ;
     padding: 0;
@@ -107,9 +86,6 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    /* display: grid; */
-    /* grid-template-columns: repeat(auto-fill, minmax(150px, 150px));  */
-    /* grid-template-rows: auto; */
     row-gap: 20px;
     gap: 20px;
 }
@@ -118,7 +94,6 @@ body {
     padding:30px ;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid rgb(40, 226, 27); */
     border-radius: 15px;
     align-content: center;
     box-shadow: 2px 2px 2px 2px rgb(137, 136, 223);
@@ -141,9 +116,7 @@ body {
 }
 #table-info{
     margin-top: 15px;
-    /* background-color: aqua; */
     border: 2px solid  rgb(33, 213, 204);
-    /* background-color: red; */
     box-shadow: 3px 5px rgb(210, 80, 224);
 }
 #popup{
@@ -152,16 +125,13 @@ body {
     top:30%;
     left:30%;
     width: auto;
-    /* height: 400px; */
     z-index: 1000;
     background-color: rgb(205, 240, 255);
     overflow: auto;
 }
 #table-info:hover{
     margin-top: 15px;
-    /* background-color: aqua; */
     border: 2px solid  rgb(33, 213, 204);
-    /* background-color: red; */
     box-shadow: 5px 10px rgb(210, 80, 224);
 }
 #table-id{
@@ -193,16 +163,13 @@ body {
     font-weight: bold;
 }
 .print-button{
-    /* float: right; */
     margin: 20px;
 
     justify-content: center;
-    /* float: right; */
 }
 .popup-footer {
     margin-left: 20px;
     text-align: right;
-    /* margin-top: 20px;  */
 }
 
 .total-cost-cell {
@@ -230,7 +197,6 @@ body {
         right: 5%;
     }
     #searchbar{
-        /* top:10px; */
         width: auto;
         padding: 5px;
     }
