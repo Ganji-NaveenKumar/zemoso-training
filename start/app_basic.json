@@ -1,0 +1,103 @@
+{
+    "allitmes":{
+    "veg-biryani": [
+      { "name": "Vegetable Biryani", "price": 160 },
+      { "name": "Paneer Biryani", "price": 210 },
+      { "name": "Soya Biryani", "price": 240 },
+      { "name": "Mushroom Biryani", "price": 230 },
+      { "name": "Jackfruit Biryani", "price": 270 }
+    ],
+    "biryani": [
+      
+      { "name": "Hyderabadi Biryani", "price": 250 },
+      { "name": "Dum Biryani", "price": 190 },
+      { "name": "Egg Biryani", "price": 180 },
+      { "name": "Fish Biryani", "price": 200 },
+      { "name": "Chicken Biryani", "price": 170 },
+      { "name": "Mutton Biryani", "price": 220 },
+      { "name": "Prawn Biryani", "price": 270 },
+      { "name": "Beef Biryani", "price": 280 },
+      { "name": "Kashmiri Biryani", "price": 300 },
+      { "name": "Vegetable Biryani", "price": 160 },
+      { "name": "Paneer Biryani", "price": 210 },
+      { "name": "Soya Biryani", "price": 240 },
+      { "name": "Mushroom Biryani", "price": 230 },
+      { "name": "Jackfruit Biryani", "price": 270 }
+    ],
+    "main": [
+        { "name": "Chicken Biryani", "price": 170 },
+        { "name": "Mutton Biryani", "price": 220 },
+        { "name": "Hyderabadi Biryani", "price": 250 },
+        { "name": "Dum Biryani", "price": 190 },
+        { "name": "Egg Biryani", "price": 180 },
+        { "name": "Fish Biryani", "price": 200 },
+        { "name": "Prawn Biryani", "price": 270 },
+        { "name": "Beef Biryani", "price": 280 },
+        { "name": "Kashmiri Biryani", "price": 300 },
+        { "name": "Vegetable Biryani", "price": 160 },
+        { "name": "Paneer Biryani", "price": 210 },
+        { "name": "Soya Biryani", "price": 240 },
+        { "name": "Mushroom Biryani", "price": 230 },
+        { "name": "Jackfruit Biryani", "price": 270 },
+        { "name": "Paneer Tikka Masala", "price": 180 },
+        { "name": "Palak Paneer", "price": 190 },
+        { "name": "Aloo Gobi", "price": 160 },
+        { "name": "Chana Masala", "price": 170 },
+        { "name": "Dal Makhani", "price": 200 },
+        { "name": "Vegetable Korma", "price": 210 },
+        { "name": "Baingan Bharta", "price": 180 },
+        { "name": "Malai Kofta", "price": 220 },
+        { "name": "Paneer Butter Masala", "price": 230 },
+        { "name": "Samosa Chaat", "price": 190 },
+        { "name": "Vegetable Pakora", "price": 170 },
+        { "name": "Paneer Tikka", "price": 250 },
+        { "name": "Rajma Masala", "price": 200 }
+      ],
+      "breakfast":[
+        { "name": "Masala Dosa", "price": 120 },
+        { "name": "Idli", "price": 40 },
+        { "name": "Vada", "price": 30 },
+        { "name": "Upma", "price": 60 },
+        { "name": "Pongal", "price": 80 },
+        { "name": "Poori Bhaji", "price": 100 },
+        { "name": "Rava Dosa", "price": 130 },
+        { "name": "Aloo Paratha", "price": 110 },
+        { "name": "Poha", "price": 50 },
+        { "name": "Methi Thepla", "price": 70 }
+      ],
+      "desserts": [
+        { "name": "Gulab Jamun", "price": 50 },
+        { "name": "Rasgulla", "price": 40 },
+        { "name": "Rasmalai", "price": 60 },
+        { "name": "Jalebi", "price": 45 },
+        { "name": "Ice Cream Sundae", "price": 70 },
+        { "name": "Chocolate Cake", "price": 120 },
+        { "name": "Fruit Salad", "price": 55 },
+        { "name": "Kheer", "price": 80 },
+        { "name": "Brownie with Ice Cream", "price": 100 }
+      ],
+      "beverages": [
+        { "name": "Coffee", "price": 40 },
+        { "name": "Tea", "price": 30 },
+        { "name": "Lemonade", "price": 50 },
+        { "name": "Mango Lassi", "price": 60 },
+        { "name": "Cold Coffee", "price": 55 },
+        { "name": "Fresh Lime Soda", "price": 45 },
+        { "name": "Iced Tea", "price": 50 },
+        { "name": "Hot Chocolate", "price": 70 },
+        { "name": "Mocktail", "price": 65 }
+      ],
+      "appetizers": [
+      { "name": "Samosa", "price": 40 },
+      { "name": "Paneer Tikka", "price": 90 },
+      { "name": "Vegetable Spring Rolls", "price": 60 },
+      { "name": "Chicken Wings", "price": 120 },
+      { "name": "Chili Paneer", "price": 100 },
+      { "name": "Fish Amritsari", "price": 130 },
+      { "name": "Onion Rings", "price": 50 },
+      { "name": "Masala Papad", "price": 35 },
+      { "name": "Hara Bhara Kabab", "price": 80 }
+    ]
+  }
+}
+  
