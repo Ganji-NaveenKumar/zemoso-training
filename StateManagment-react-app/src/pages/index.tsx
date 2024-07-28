@@ -5,7 +5,6 @@ const HomePage: React.FC = () => {
   return (
     <Box>
       <Books />
-      {/* <img src={ImagePath.LogoImage} alt="not found" /> */}
     </Box>
   );
 };

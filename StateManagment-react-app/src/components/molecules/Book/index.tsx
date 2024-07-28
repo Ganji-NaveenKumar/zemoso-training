@@ -1,11 +1,19 @@
 import React from "react";
-import styled from "styled-components";
 import Typography from "../../atoms/Typography";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import IconTypography from "../IconTypography";
-import Button from "../../atoms/Button";
 import { Box } from "@mui/material";
+import {
+  CompleteBook,
+  BookContainerStyle,
+  TypographyStyled,
+  H5Typography,
+  IconTypographyStyled,
+  ButtonStyled,
+  StyledImage,
+} from "../../../themes/index";
+import { dataset } from "../../../utils/Constants/data";
 interface BookProps {
   src: string;
   data1: string;
@@ -15,46 +23,7 @@ interface BookProps {
   reading: boolean;
   onClick: () => void;
 }
-const BookContainerStyle = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: auto;
-  height: auto;
-  padding: 16px;
-  border-radius: 8px;
-`;
-const StyledImage = styled.img`
-  width: 200px;
-  height: 200px;
-`;
-const IconTypographyStyled = styled.div`
-  display: flex;
-  justify-content: space-between;
-  gap: 50px;
-  margin: 3px;
-`;
-const ButtonStyled = styled(Button)`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: auto;
-  margin: 3px;
-`;
-const TypographyStyled = styled.div`
-  text-align: start;
-  margin: 3px;
-`;
-const H5Typography = styled(Typography)`
-  font-family: "Times New Roman";
-  font-size: 1.5rem; /* Example size adjustment */
-  font-weight: 800;
-`;
-const CompleteBook = styled.div`
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
-  margin: 3px;
-  width: auto;
-`;
+
 const Book: React.FC<BookProps> = ({
   src,
   data1,
@@ -88,7 +57,7 @@ const Book: React.FC<BookProps> = ({
         </IconTypographyStyled>
       </BookContainerStyle>
       <ButtonStyled onClick={onClick}>
-        {reading ? "Finished me" : "Read Again me"}
+        {reading ? dataset.Finish : dataset.Read}
       </ButtonStyled>
     </CompleteBook>
   );

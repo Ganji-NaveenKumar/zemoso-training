@@ -1,4 +1,4 @@
-// import image1 from '../../../public/assets/Icons/JJ.jpg';
+
 import ImagePath from "./index";
 const data = [
   {
@@ -93,3 +93,8 @@ const data = [
   },
 ];
 export default data;
+
+export const dataset={
+  Finish:"Finished me",
+  Read:"Read Again me"
+}
