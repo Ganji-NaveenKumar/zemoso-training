@@ -59,10 +59,10 @@ const Books: React.FC = () => {
       {Flag === 0 ? (
         <BookContainer>
           {currentreading.map(
-            (item, index) =>
+            (item) =>
               item.reading && (
                 <Book
-                  key={index}
+                  key={item.id}
                   src={item.src}
                   data1={item.data1}
                   data2={item.data2}
@@ -77,10 +77,10 @@ const Books: React.FC = () => {
       ) : (
         <BookContainer>
           {finished.map(
-            (item, index) =>
+            (item) =>
               !item.reading && (
                 <Book
-                  key={index}
+                  key={item.id}
                   src={item.src}
                   data1={item.data1}
                   data2={item.data2}
