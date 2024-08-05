@@ -6,7 +6,6 @@ test("Typography component renders with correct variant and children", () => {
   const typographyElement = screen.getByText(/TypographyText/i);
 
   expect(typographyElement).toBeInTheDocument();
-//   expect(typographyElement).toHaveTextContent(/TypographyText/i);
 
   expect(typographyElement).toHaveClass('MuiTypography-h3');
 });
@@ -17,7 +16,6 @@ test("Typography component renders with subtitle1 variant", () => {
 
   const typographyElement = screen.getByText(/Subtitle Text/i);
 
-//   expect(typographyElement).toBeInTheDocument();
 
   expect(typographyElement).toHaveClass('MuiTypography-subtitle1');
 });

@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import TextField from "./index";
 import { ChangeEvent } from "react";
 
-test("Textfiled testing placeholder", () => {
+test("Rendering with placeholder-name", () => {
   render(
     <TextField
       placeholder="name"
@@ -15,7 +15,7 @@ test("Textfiled testing placeholder", () => {
   const placeholderText=screen.getByPlaceholderText(/name/i)
   expect(placeholderText).toBeInTheDocument();
 });
-test("Textfiled testing type", () => {
+test("rendering Textfiled with testing type", () => {
     render(
       <TextField
         placeholder="name"
@@ -28,7 +28,7 @@ test("Textfiled testing type", () => {
     const inputElement = screen.getByPlaceholderText(/name/i) as HTMLInputElement;
     expect(inputElement).toHaveAttribute('type', 'number');
   });
-  test("Textfield tesing varaint",()=>{
+  test("rendering Textfield with tesing varaint",()=>{
     render(<TextField placeholder="name" type="number"  onChange={function (event: ChangeEvent<HTMLInputElement>): void {
         throw new Error("Function not implemented.");
   }}></TextField>)

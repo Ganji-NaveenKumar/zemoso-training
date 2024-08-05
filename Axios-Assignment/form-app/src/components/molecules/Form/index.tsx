@@ -17,9 +17,9 @@ const Form: React.FC<ButtonProps> = ({
   setRole,
   setExperience,
 }) => {
-  const [nameError, setNameError] = useState("");
-  const [roleError, setRoleError] = useState("");
-  const [experienceError, setExperienceError] = useState("");
+  const [nameError, setNameError] = useState<string>("");
+  const [roleError, setRoleError] = useState<string>("");
+  const [experienceError, setExperienceError] = useState<string>("");
 
   const handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
